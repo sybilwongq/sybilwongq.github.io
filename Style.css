@@ -1,0 +1,78 @@
+/*设置背景图片，并且不随页面移动*/
+body {
+  background-image: url("images/其他页背景图.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*设置导航栏*/
+    /* 定义导航栏容器的样式 */
+		nav {
+			float: left;
+			width: 30%;
+			background-color:black 0.5;
+      position:fixed;
+      margin-top: 70px;
+		}
+		
+		/* 定义导航项的样式 */
+		nav a {
+			display: block;
+			margin-bottom: 0px;
+			text-decoration: none;
+		}
+		
+		/* 定义导航项中的图像的样式 */
+		nav a img {
+			display: block;
+			max-width: 100%;
+		}
+
+/*设定右边文本框*/
+.box1{
+    width: 65%;
+    padding: top 10px;
+    padding: left 100px;
+    position:absolute;
+    left: 30%;
+    top:10%;
+}
+/*设置各级标题及正文字体字号*/
+#my{
+  color:brown;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:bolder;
+}
+h1{font-size:45px;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:black;}
+h2{font: size 20px;
+  color:black;
+  margin-left: 20px;
+  margin-right: 20px;}
+h3{font-size: 15px;
+  color: black;
+  margin-left:20px;
+  margin-right:20px;
+  font-weight: normal;
+  line-height: 1.5em;
+  text-indent: 2em;
+}
+h4{
+  color:brown;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:bolder;
+  text-align:center;
+}
+/*分割线样式*/
+hr{
+    border:none;
+    height:1px;
+    background-color:black;
+    margin-top: 0px;
+    margin: bottom 20px;
+    margin: right 40px;
+}
